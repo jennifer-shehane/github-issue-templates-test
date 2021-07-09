@@ -7,8 +7,6 @@ body:
       value: |
         Have a question?  👉 [Start a new discussion](https://github.com/cypress-io/cypress/discussions) 
 
-        As an open source project with a small maintainer team, it may take some time for your issue to be addressed. Please be patient and we'll respond as soon as we can.
-
         Before submitting the issue, please make sure you do the following:
 
         - Install the latest [Cypress version](https://on.cypress.io/changelog)
@@ -25,7 +23,7 @@ body:
     id: debug-logs
     attributes:
       label: Debug logs
-      description: Include DEBUG logs setting `DEBUG=cypress:*` 👉 https://on.cypress.io/troubleshooting#Print-DEBUG-logs/. Include npm/yarn logs if applicable.
+      description: Include [DEBUG logs](https://on.cypress.io/troubleshooting#Print-DEBUG-logs/) setting `DEBUG=cypress:*`. Include npm/yarn logs if applicable.
       placeholder: Debug logs
   - type: input
     id: version
