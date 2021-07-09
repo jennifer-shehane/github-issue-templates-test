@@ -5,13 +5,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        Have a question? Start a new discussion 👉 https://github.com/cypress-io/cypress/discussions
+        Have a question?  👉 [Start a new discussion](https://github.com/cypress-io/cypress/discussions) 
 
         As an open source project with a small maintainer team, it may take some time for your issue to be addressed. Please be patient and we'll respond as soon as we can.
 
         Before submitting the issue, please make sure you do the following:
+
         - Install the latest [Cypress version](https://on.cypress.io/changelog)
-        - If behind a proxy, configure it properly (https://on.cypress.io/).
+        - If behind a proxy, [configure it properly](https://on.cypress.io/proxy-configuration).
   - type: textarea
     id: current-behavior
     attributes:
