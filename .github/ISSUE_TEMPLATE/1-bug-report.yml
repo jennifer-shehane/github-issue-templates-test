@@ -17,14 +17,14 @@ body:
     id: desired-behavior
     attributes:
       label: Desired behavior
-      description: Remember, we're not familiar with the application you're testing, so please provide a clear description of what should happen.
+      description: Remember, we're not familiar with the app you're testing, so please provide a clear description of what should happen.
       placeholder: In this situation, Cypress should...
   - type: textarea
     id: reproduction
     attributes:
       label: Test code to reproduce
       description: Provide a failing test or repo we can run. You can fork 👉 https://github.com/cypress-io/cypress-test-tiny repo, set up a failing test, then link to your fork.
-      placeholder: Here is my test code and the application code to run it against...
+      placeholder: Here is my test code and the app code to run it against...
   - type: input
     id: version
     attributes:

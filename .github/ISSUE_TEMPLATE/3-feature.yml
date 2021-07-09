@@ -17,5 +17,5 @@ body:
     id: reason
     attributes:
       label: Why is this needed?
-      description: Remember, we're not familiar with the application you're testing, so please provide a clear description of why this would be useful to your project. 
+      description: Remember, we're not familiar with the app you're testing, so please provide a clear description of why this would be useful to your project. 
       placeholder: I need this because...
