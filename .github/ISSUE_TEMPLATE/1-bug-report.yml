@@ -4,9 +4,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Have a question? Start a new discussion 👉 https://github.com/cypress-io/cypress/discussions
+        Have a question? 👉 [Start a new discussion](https://github.com/cypress-io/cypress/discussions) or [ask in chat](https://on.cypress.io/discord).
 
-        As an open source project with a small maintainer team, it may take some time for your issue to be addressed. Please be patient and we'll respond as soon as we can.
+        Please be patient and we'll respond as soon as we can. 🙏
   - type: textarea
     id: current-behavior
     attributes:
