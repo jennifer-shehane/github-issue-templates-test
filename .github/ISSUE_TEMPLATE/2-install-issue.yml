@@ -5,11 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        👋 Use the template below to report an issue with installing Cypress 👉 https://on.cypress.io/installing-cypress
-
         Have a question? Start a new discussion 👉 https://github.com/cypress-io/cypress/discussions
 
-        Fill in as much info as possible. As an open source project with a small maintainer team, it may take some time for your issue to be addressed. Please be patient and we will respond as soon as we can. 🙏 
+        As an open source project with a small maintainer team, it may take some time for your issue to be addressed. Please be patient and we'll respond as soon as we can.
   - type: textarea
     id: current-behavior
     attributes:
@@ -24,11 +22,18 @@ body:
       label: Debug logs
       description: Include DEBUG logs setting `DEBUG=cypress:*` 👉 https://on.cypress.io/troubleshooting#Print-DEBUG-logs/. Include npm/yarn logs if applicable.
       placeholder: Debug logs
+  - type: input
+    id: version
+    attributes:
+      label: Cypress Version
+      description: Run `cypress version` to see your current version. If possible, please update Cypress to the latest version first.
+      placeholder: ex. 7.6.0
+    validations:
+      required: true
   - type: dropdown
     id: package-manager
     attributes:
-      label: Used Package Manager
-      description: Select the used package manager
+      label: Package Manager
       options:
         - npm
         - yarn
@@ -41,22 +46,12 @@ body:
     id: operating-system
     attributes:
       label: Operating system
-      description: Select the used package manager
       options:
         - Linux
         - Mac
         - Windows
     validations:
       required: true
-  - type: textarea
-    id: versions
-    attributes:
-      label: Versions
-      description: |
-        Cypress version, Operating System, CI Provider, etc
-
-        If possible, please update Cypress to latest version and check if the bug is still present.
-
   - type: checkboxes
     id: checkboxes
     attributes:
@@ -64,8 +59,4 @@ body:
       description: Before submitting the issue, please make sure you do the following
       options:
         - label: I'm installing latest Cypress version (https://on.cypress.io/changelog)
-          required: true
-        - label: If I am behind a proxy, I have configured it properly (https://on.cypress.io/).
-          required: true
-        - label: I have specified the CI povider if this is happening only in CI
-          required: true
+        - label: If I'm behind a proxy, I have configured it properly (https://on.cypress.io/).
