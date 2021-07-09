@@ -10,7 +10,7 @@ body:
     attributes:
       label: What would you like?
       description: A clear description of the feature or enhancement wanted in Cypress.
-      placeholder: What would you like?
+      placeholder: I'd like to be able to...
     validations:
       required: true
   - type: textarea
@@ -18,4 +18,4 @@ body:
     attributes:
       label: Why is this needed?
       description: Remember, we're not familiar with the application you're testing, so please provide a clear description of why this would be useful to your project. 
-      placeholder: Why is this needed?
+      placeholder: I need this because...

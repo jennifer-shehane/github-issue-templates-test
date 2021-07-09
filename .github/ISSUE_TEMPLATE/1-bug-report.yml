@@ -10,7 +10,7 @@ body:
     attributes:
       label: Current behavior
       description: A description including screenshots, stack traces, DEBUG logs, etc. 👉 https://on.cypress.io/troubleshooting
-      placeholder: Current behavior
+      placeholder: Currently...
     validations:
       required: true
   - type: textarea
@@ -18,13 +18,13 @@ body:
     attributes:
       label: Desired behavior
       description: Remember, we're not familiar with the application you're testing, so please provide a clear description of what should happen.
-      placeholder: Desired behavior
+      placeholder: In this situation, Cypress should...
   - type: textarea
     id: reproduction
     attributes:
       label: Test code to reproduce
       description: Provide a failing test or repo we can run. You can fork 👉 https://github.com/cypress-io/cypress-test-tiny repo, set up a failing test, then link to your fork.
-      placeholder: Test code to reproduce
+      placeholder: Here is my test code and the application code to run it against...
   - type: input
     id: version
     attributes:
@@ -37,4 +37,4 @@ body:
     id: othter
     attributes:
       label: Other
-      description: "Any other details: last known working Cypress version (if applicable), Browser and version, Operating System, CI Provider, etc"     
+      placeholder: Any other details?

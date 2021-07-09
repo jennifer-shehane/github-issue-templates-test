@@ -13,7 +13,7 @@ body:
     attributes:
       label: Current behavior
       description: A description including screenshots, stack traces, DEBUG logs, etc. 👉 https://on.cypress.io/troubleshooting
-      placeholder: Current behavior
+      placeholder: When I try to download Cypress...
     validations:
       required: true
   - type: textarea
