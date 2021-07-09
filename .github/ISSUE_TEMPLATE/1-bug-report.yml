@@ -27,13 +27,21 @@ body:
     id: reproduction
     attributes:
       label: Test code to reproduce
-      description: You could also provide a repo that we can clone and run. You can fork 👉 https://github.com/cypress-io/cypress-test-tiny repo, set up a failing test, then link to your fork.
+      description: Provide a repo that we can clone and run. You can fork 👉 https://github.com/cypress-io/cypress-test-tiny repo, set up a failing test, then link to your fork.
       placeholder: Test code to reproduce
-  - type: textarea
-    id: versions
+  - type: input
+    id: version
     attributes:
-      label: Versions
+      label: Cypress Version
+      description: If possible, please update Cypress to latest version and check if the bug is still present first.
+      placeholder: ex. 7.6.0
+    validations:
+      required: true
+  - type: textarea
+    id: othter
+    attributes:
+      label: Other
       description: |
-        Cypress version, last known working Cypress version (if applicable), Browser and version, Operating System, CI Provider, etc
+        Any  other details like, last known working Cypress version (if applicable), Browser and version, Operating System, CI Provider, etc
 
-        If possible, please update Cypress to latest version and check if the bug is still present.
+        You can run `cypress info` to see more detail on your environment        
