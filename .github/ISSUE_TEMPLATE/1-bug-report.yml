@@ -24,7 +24,9 @@ body:
     attributes:
       label: Test code to reproduce
       description: Provide a failing test or repo we can run. You can fork [this repo](https://github.com/cypress-io/cypress-test-tiny), set up a failing test, then link to your fork.
-      placeholder: Here is my test code and the app code to run it against...
+      placeholder: Here is my failing test code and the app code to run the tests on...
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
