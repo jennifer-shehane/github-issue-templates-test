@@ -12,7 +12,7 @@ body:
     id: current-behavior
     attributes:
       label: Current behavior
-      description: A description including screenshots, stack traces, DEBUG logs, etc. 👉 https://on.cypress.io/troubleshooting
+      description: A description including screenshots, stack traces, DEBUG logs, etc. [Troubleshooting tips](https://on.cypress.io/troubleshooting).
       placeholder: When I try to download Cypress...
     validations:
       required: true
