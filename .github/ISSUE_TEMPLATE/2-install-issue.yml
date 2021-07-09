@@ -57,4 +57,4 @@ body:
     id: othter
     attributes:
       label: Other
-      description: "Any other details: last known working Cypress version (if applicable), CI Provider, etc"     
+      placeholder: Any other details?
