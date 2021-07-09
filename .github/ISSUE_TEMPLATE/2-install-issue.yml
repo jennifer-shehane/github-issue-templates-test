@@ -7,7 +7,7 @@ body:
       value: |
         Have a question? 👉 [Start a new discussion](https://github.com/cypress-io/cypress/discussions) or [ask in chat](https://on.cypress.io/discord).
 
-        Before submitting the issue, if you're behind a corporate proxy, make sure to [configure it properly](https://on.cypress.io/proxy-configuration).
+        If you're behind a corporate proxy, make sure to [configure it properly](https://on.cypress.io/proxy-configuration) before install.
   - type: textarea
     id: current-behavior
     attributes:
