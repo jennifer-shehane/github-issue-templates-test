@@ -4,8 +4,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        👋 Use the template below to report a bug. Fill in as much info as possible. 
-
         Have a question? Start a new discussion 👉 https://github.com/cypress-io/cypress/discussions
 
         As an open source project with a small maintainer team, it may take some time for your issue to be addressed. Please be patient and we will respond as soon as we can.
@@ -21,19 +19,19 @@ body:
     id: desired-behavior
     attributes:
       label: Desired behavior
-      description: Remember, we are not familiar with the application you're testing, so please provide a clear description of what should happen.
+      description: Remember, we're not familiar with the application you're testing, so please provide a clear description of what should happen.
       placeholder: Desired behavior
   - type: textarea
     id: reproduction
     attributes:
       label: Test code to reproduce
-      description: Provide a repo that we can clone and run. You can fork 👉 https://github.com/cypress-io/cypress-test-tiny repo, set up a failing test, then link to your fork.
+      description: Provide a failing test or repo we can run. You can fork 👉 https://github.com/cypress-io/cypress-test-tiny repo, set up a failing test, then link to your fork.
       placeholder: Test code to reproduce
   - type: input
     id: version
     attributes:
       label: Cypress Version
-      description: If possible, please update Cypress to latest version and check if the bug is still present first.
+      description: Run `cypress version`. If possible, please update Cypress to the latest version first.
       placeholder: ex. 7.6.0
     validations:
       required: true
@@ -41,7 +39,4 @@ body:
     id: othter
     attributes:
       label: Other
-      description: |
-        Any  other details like, last known working Cypress version (if applicable), Browser and version, Operating System, CI Provider, etc
-
-        You can run `cypress info` to see more detail on your environment        
+      description: Any other details like last known working Cypress version (if applicable), Browser and version, Operating System, CI Provider, etc     
