@@ -5,12 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Have a question?  👉 [Start a new discussion](https://github.com/cypress-io/cypress/discussions) 
+        Have a question?  👉 [Start a new discussion](https://github.com/cypress-io/cypress/discussions).
 
-        Before submitting the issue, please make sure you do the following:
-
-        - Install the latest [Cypress version](https://on.cypress.io/changelog)
-        - If behind a proxy, [configure it properly](https://on.cypress.io/proxy-configuration).
+        Before submitting the issue, if you're behind a corporate proxy, make sure to [configure it properly](https://on.cypress.io/proxy-configuration).
   - type: textarea
     id: current-behavior
     attributes:
@@ -29,7 +26,7 @@ body:
     id: version
     attributes:
       label: Cypress Version
-      description: Run `cypress version` to see your current version. If possible, please update Cypress to the [latest version](https://on.cypress.io/changelog) first.
+      description: The version you're trying to install
       placeholder: ex. 7.6.0
     validations:
       required: true
