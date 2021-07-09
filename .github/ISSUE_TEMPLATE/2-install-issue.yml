@@ -8,14 +8,10 @@ body:
         Have a question? Start a new discussion 👉 https://github.com/cypress-io/cypress/discussions
 
         As an open source project with a small maintainer team, it may take some time for your issue to be addressed. Please be patient and we'll respond as soon as we can.
-  - type: checkboxes
-    id: checkboxes
-    attributes:
-      label: Validations
-      description: Before submitting the issue, please make sure you do the following
-      options:
-        - label: Install the latest Cypress version (https://on.cypress.io/changelog)
-        - label: If behind a proxy, configure it properly (https://on.cypress.io/).
+
+        Before submitting the issue, please make sure you do the following:
+        - Install the latest Cypress version [https://on.cypress.io/changelog](https://on.cypress.io/changelog)
+        - If behind a proxy, configure it properly (https://on.cypress.io/).
   - type: textarea
     id: current-behavior
     attributes:
@@ -58,5 +54,6 @@ body:
         - Linux
         - Mac
         - Windows
+        - other
     validations:
       required: true
